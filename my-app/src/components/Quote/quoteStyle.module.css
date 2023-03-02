@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.container{
+  background-color: white;
+
+  padding: 20px 20px;
+  width: 450px;
+
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#quoteContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+
+  transition: opacity 0.5s;
+}
+
+#quoteContainer p{
+  font-size: 28px;
+
+  max-width: 100%;
+  text-align: justify;
+
+  transition: color 1s;
+}
+
+#quoteAuthor{
+  width: 100%;
+  text-align: end;
+  font-size: 24px;
+
+  transition: color 1s;
+}
+
+.buttonImage{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#actionContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+
+  width: 88%;
+  max-width: 88%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#newQuoteButton{
+  height: 35px;
+  width: auto;
+  padding: 5px 15px;
+
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+
+  transition: background-color 1s;
+}
+
+.actionButton{
+  padding: 0;
+  height: 35px;
+  width: 35px;
+  
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+  transition: background-color 1s;
+
+}
+
+#devName {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 300px;
+  }
+  #quoteContainer p{
+    font-size: 24px;
+  
+    max-width: 88%;
+    text-align: justify;
+  }
+  
+  #quoteAuthor{
+    max-width: 88%;
+    text-align: end;
+    font-size: 20px;
+  }
+  
+}
